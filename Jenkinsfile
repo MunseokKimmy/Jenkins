@@ -19,13 +19,13 @@ pipeline {
 
         stage ('Short Tests') {
             steps {
-                sh 'mvn -Dtest=CalculatorTest test'
+                sh 'mvn -Dtest=java.tests.CalculatorTest test'
             }
         }
 
         stage ('Long Tests') {
             steps {
-                sh 'mvn -Dtest=CalculatorTestThorough test'
+                sh 'mvn -Dtest=java.tests.CalculatorTestThorough test'
             }
             post {
                 success {
