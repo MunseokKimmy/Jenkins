@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.UUID;
+
 public class Calculator {
 
     public Calculator(){
@@ -58,7 +60,7 @@ public class Calculator {
     if int a = 16 then this method returns: 10000
      */
     public String intToBinaryNumber(int n){
-        return null;
+        return Integer.toBinaryString(n);
     }
 
     /*
@@ -70,8 +72,8 @@ public class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     public String createUniqueID(String n){
-
-        return null;
+        String uniqueID = n + UUID.randomUUID().toString();
+        return uniqueID;
     }
 
 
