@@ -19,7 +19,7 @@ pipeline {
 
         stage ('Short Tests') {
             steps {
-                sh 'mvn -Dtest=java.java.CalculatorTest test'
+                sh 'mvn -Dtest=java.test.java.CalculatorTest test'
             }
         }
 

@@ -1,6 +1,7 @@
-package java;
+package test.java;
 
-import org.junit.Test;
+import main.java.Calculator;
+import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.Set;

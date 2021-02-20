@@ -1,5 +1,6 @@
-package java;
+package test.java;
 
+import main.java.Calculator;
 import org.junit.Test;
 
 import java.util.HashSet;
