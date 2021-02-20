@@ -1,4 +1,4 @@
-package classes;
+package java;
 
 import java.util.UUID;
 

@@ -1,8 +1,7 @@
-package tests;
+package java;
 
 import org.junit.Test;
 
-import classes.Calculator;
 import java.util.HashSet;
 import java.util.Set;
 
