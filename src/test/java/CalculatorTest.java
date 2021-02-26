@@ -1,4 +1,3 @@
-package test.java;
 
 import main.java.Calculator;
 import org.junit.Test;
