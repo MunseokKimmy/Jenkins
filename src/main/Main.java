@@ -1,4 +1,6 @@
-package main.java;
+package main;
+
+import main.java.Calculator;
 
 import java.io.IOException;
 import java.util.Scanner;
